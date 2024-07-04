@@ -6,7 +6,6 @@ import {
 import Layout from "./pages/layout/layout";
 import ListPage from "./pages/listPage/listPage";
 import HomePage from "./pages/homePage/homePage";
-import singlePage from "./pages/singlePage/singlePage";
 
 
 function App() {
