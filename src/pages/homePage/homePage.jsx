@@ -7,12 +7,15 @@ function homePage() {
             <div className="text-container">
                 <div className="wrapper">
                     <h1 className='title'>
-                        Find real estate and get your dream place.
+                        Discover Your Dream Home
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, nulla excepturi voluptates necessitatibus neque maiores dolore soluta exercitationem mollitia iusto a animi commodi suscipit perspiciatis ex modi quasi aliquam? Vel.
+                        Find your dream home with us. Rent or buy properties easily.
+                        Discover top listings, beautiful homes, and great deals.
+                        Start your journey to a perfect home today!
+                        Explore diverse neighborhoods and exclusive offers tailored just for you.
                     </p>
-                    <SearchBar/>
+                    <SearchBar />
                     <div className="boxes">
                         <div className="box">
                             <h1>10+</h1>
