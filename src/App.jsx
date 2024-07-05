@@ -6,6 +6,7 @@ import {
 import Layout from "./pages/layout/layout";
 import ListPage from "./pages/listPage/listPage";
 import HomePage from "./pages/homePage/homePage";
+import SinglePage from "./pages/singlePage/singlePage";
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
         },
         {
           path: "/:id",
-          element: <singlePage />
+          element: <SinglePage />
         },
       ]
     }
