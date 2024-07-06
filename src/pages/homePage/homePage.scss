@@ -29,6 +29,10 @@
 
             .title {
                 font-size: 64px;
+                font-family: "Playwrite GB S", cursive;
+                font-optical-sizing: auto;
+                font-weight: 200;
+                font-style: normal;
 
                 @include lg {
                     font-size: 48px;

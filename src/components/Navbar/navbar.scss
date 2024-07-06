@@ -27,6 +27,13 @@ nav {
         align-items: center;
         gap: 50px;
 
+        .logo-name{
+            font-family: "Playwrite GB S", cursive;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+        }
+
         .logo {
             font-weight: bold;
             font-size: 20px;
