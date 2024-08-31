@@ -5,19 +5,16 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.2rem;
 
     a {
-        transition: all 0.2s ease;
+        transition: all 0.4s ease;
 
         @include sm {
             display: none;
         }
 
         &:hover {
-            
-            text-decoration: underline;
-
+            scale: 1.05;
         }
     }
 
@@ -26,13 +23,6 @@ nav {
         display: flex;
         align-items: center;
         gap: 50px;
-
-        .logo-name{
-            font-family: "Playwrite GB S", cursive;
-            font-optical-sizing: auto;
-            font-weight: 900;
-            font-style: normal;
-        }
 
         .logo {
             font-weight: bold;
@@ -64,7 +54,6 @@ nav {
         justify-content: flex-end;
         background-color: #fcf5f3;
         height: 100%;
-        text-wrap: nowrap;
 
         @include md {
             background-color: transparent;
@@ -75,12 +64,54 @@ nav {
             margin: 20px;
         }
 
-        .register {
-            background-color: #fece51;
-            border-radius: 8px;
+        .user {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+
+            img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-right: 20px;
+            }
+
+            span {
+                @include sm {
+                    display: none;
+                }
+            }
+
+            .profile {
+                padding: 12px 24px;
+                background-color: #fece51;
+                cursor: pointer;
+                border: none;
+                position: relative;
+
+                .notification {
+                    position: absolute;
+                    top: -8px;
+                    right: -8px;
+                    background-color: red;
+                    color: white;
+                    border-radius: 50%;
+                    width: 26px;
+                    height: 26px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+            }
         }
 
-        .menu-icon {
+        .register {
+            background-color: #fece51;
+        }
+
+        .menuIcon {
             display: none;
             z-index: 999;
 

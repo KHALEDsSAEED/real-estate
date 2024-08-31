@@ -13,6 +13,7 @@
         flex: 3;
         height: 100%;
         overflow-y: scroll;
+        padding-bottom: 1.5rem;
 
         @include md {
             flex: none;
@@ -113,6 +114,7 @@
         background-color: #fcf5f3;
         height: 100%;
         overflow-y: scroll;
+        padding-bottom: 1.5rem;
 
         @include md {
             flex: none;

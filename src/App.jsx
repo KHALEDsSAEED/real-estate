@@ -7,6 +7,9 @@ import Layout from "./pages/layout/layout";
 import ListPage from "./pages/listPage/listPage";
 import HomePage from "./pages/homePage/homePage";
 import SinglePage from "./pages/singlePage/singlePage";
+import ProfilePage from "./pages/profilePage/profilePage";
+import Login from "./pages/login/login";
+import Register from "./pages/register/register";
 
 
 function App() {
@@ -14,9 +17,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: (
-        <Layout />
-      ),
+      element: <Layout />,
       children: [
         {
           path: "/",
@@ -30,6 +31,18 @@ function App() {
           path: "/:id",
           element: <SinglePage />
         },
+        {
+          path: "/profile",
+          element: <ProfilePage />
+        },
+        {
+          path: "/login",
+          element: <Login />
+        },
+        {
+          path: "/register",
+          element: <Register />
+        }
       ]
     }
   ]);
