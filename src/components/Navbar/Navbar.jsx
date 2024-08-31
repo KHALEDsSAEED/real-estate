@@ -13,7 +13,9 @@ function Navbar() {
                     <img src="/logo.png" alt="" />
                     <span>LamaEstate</span>
                 </a>
-                <a href="/list">Apartments</a>
+                <Link to="/list">
+                    <a href="/list">Apartments</a>
+                </Link>
                 <a href="/">About</a>
                 <a href="/">Contact</a>
                 <a href="/">Agents</a>
